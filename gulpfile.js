@@ -19,7 +19,7 @@ var sass_files = [
 var paths = {
 
     styles: {
-        src: 'src/sass/*.scss',
+        src: 'src/sass/**/*.scss',
         files: './app/Admin/assets/sass/**/*.scss',
         dest: './public/css/admin'
     }
