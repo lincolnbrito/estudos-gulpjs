@@ -9,3 +9,10 @@ gulp.task('scripts', function(){
 				.pipe(uglify())
 				.pipe(gulp.dest('build/js'));
 });
+
+gulp.task('watch', function(){
+	gulp.watch('src/**/*.js', function(event){
+		gutil.log('File '+event.path+' was '+event.type+', running tasks...');
+		gulp.run('scripts');
+	});
+});
