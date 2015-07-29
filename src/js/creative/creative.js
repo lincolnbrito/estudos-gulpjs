@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// Alterando para o Gulp Watch
+
 (function($) {
     "use strict"; // Start of use strict
 

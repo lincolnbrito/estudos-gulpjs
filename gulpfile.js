@@ -52,6 +52,6 @@ gulp.task('watch', function(){
     //  gutil.log('File '+event.path+' was '+event.type+', running tasks...');
     //  gulp.run('scripts');
     //});
-    gulp.watch(['src/**/*.js','src/sass/*.scss'],['scripts']);
+    gulp.watch(['src/**/*.js'],['scripts']);
     gulp.watch(['src/sass/*.scss'],['sass']);
 });
